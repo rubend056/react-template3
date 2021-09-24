@@ -14,5 +14,5 @@ interface ReturnType {
 }
 
 export const [useApi_Name, name$] = createAPIFetchStatic<ReturnType>({ endpoint: `/Hello_World` });
-export const [setApi_NamePostQuery, useApi_NamePostQuery, useApi_NamePost, namePost$] = createAPIFetchEvent();
+// export const [setApi_NamePostQuery, useApi_NamePostQuery, useApi_NamePost, namePost$] = createAPIFetchEvent();
 // ----------------------
