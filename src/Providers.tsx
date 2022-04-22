@@ -1,7 +1,6 @@
-import { HashRouter as Router } from "react-router-dom";
-
-import ThemeProvider from "@common/atoms/Theme";
 import Notifications from "@common/atoms/Notifications";
+import ThemeProvider from "@common/atoms/Theme";
+import { HashRouter as Router } from "react-router-dom";
 
 function Providers(children) {
 	return (

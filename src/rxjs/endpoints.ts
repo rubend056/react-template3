@@ -1,7 +1,7 @@
 /**
  * Endpoint definitions using the rxjs library
  */
-import { createAPIFetchEvent, createAPIFetchStatic, ResponseFetch } from "@common/rxjs/rxjs_utils";
+import { createAPIFetchStatic, ResponseFetch } from "@common/rxjs/rxjs_utils";
 
 type DetailQuery = { id: string };
 

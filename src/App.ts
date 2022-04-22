@@ -1,6 +1,6 @@
-import Providers from "./Providers";
-import Content from "./Content";
 import { useEffect } from "react";
+import Content from "./Content";
+import Providers from "./Providers";
 
 const useAppLoadingHide = () => {
 	// Removing the app-loading element, this only runs once when the app starts
