@@ -1,22 +1,22 @@
-import React, { ReactNode } from "react";
+import React, { FunctionComponent } from "react";
 import s from './{{pascalCase name}}.module.scss';
 import { useTheme } from "@common/atoms/Theme";
-import { cnf } from "@common/utils";
+import { cnfc } from "@common/utils";
+const c = cnfc(s);
 
-export interface {{pascalCase name}}Props{
-	children?: ReactNode;
+export interface {{pascalCase name}}Props extends React.HTMLAttributes<HTMLDivElement>{
+	
 }
 
-const {{pascalCase name}} = ({
+const {{pascalCase name}}:FunctionComponent<{{pascalCase name}}Props> = ({
 	className,
 	children,
 	...props
-}: {{pascalCase name}}Props & React.HTMLAttributes<HTMLDivElement>) => {
+}) => {
 	const theme = useTheme().name;
-	className = cnf(s, `comp`, theme, className);
-
+	
 	return (
-		<div className={className} {...props}>
+		<div className={c('comp', theme, className)} {...props}>
 			{children}
 		</div>
 	);
