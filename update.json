@@ -1,0 +1,20 @@
+
+{
+	"dtypes": {
+		"path": "./src/types",
+		"entries": [
+			{
+				"path": "/server",
+				"url": "http://techyard.pw/api/definitions",
+				"clear": true
+			}
+		]
+	},
+	"uvars":{
+		"vars":{},
+		"files":[
+			"./src/_globals.scss",
+			"./public/manifest.json"
+		]
+	}
+}

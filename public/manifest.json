@@ -1,6 +1,8 @@
 {
-	"short_name": "Template",
-	"name": "React Template",
+	"short_name_env": "REACT_APP_NAME_SHORT",
+	"short_name": "Techyard",
+	"name_env": "REACT_APP_NAME",
+	"name": "Techyard.pw",
 	"icons": [
 		{
 			"src": "favicon.ico",
@@ -10,6 +12,8 @@
 	],
 	"start_url": ".",
 	"display": "standalone",
-	"theme_color": "#DF5395",
-	"background_color": "#7B54A3"
+	"theme_color_env": "REACT_APP_COLOR_PRIMARY",
+	"theme_color": "#2196f3",
+	"background_color_env": "REACT_APP_COLOR_BACKGROUND",
+	"background_color": "#d8d8d8"
 }

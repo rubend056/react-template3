@@ -1,0 +1,10 @@
+@import '@common/styles/01-config/material-palette';
+$themes-override:(
+	default: (
+		colors: (
+			primary: #2196f3, //%REACT_APP_COLOR_PRIMARY%
+			secondary: #4caf50, //%REACT_APP_COLOR_SECONDARY%
+			background: #d8d8d8 //%REACT_APP_COLOR_BACKGROUND%
+		)
+	)
+)
